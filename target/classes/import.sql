@@ -1,0 +1,10 @@
+insert into TB_CLIENTE (name, cpf, birth_date, income, children) values ('John Connor', '11111111111','2000-10-02', 1500, 0);
+insert into TB_CLIENTE (name, cpf, birth_date, income, children) values ('Paul Berry', '22222222222','1996-05-02', 2200, 2);
+insert into TB_CLIENTE (name, cpf, birth_date, income, children) values ('Chuck Allen', '33333333333','2001-04-23', 1700, 0);
+insert into TB_CLIENTE (name, cpf, birth_date, income, children) values ('Mahatma Ali', '12312312332','1975-06-05', 8500, 3);
+insert into TB_CLIENTE (name, cpf, birth_date, income, children) values ('Denise Chubs', '12334512332','1982-12-25', 4500, 1);
+insert into TB_CLIENTE (name, cpf, birth_date, income, children) values ('Rebeca De Norm', '45612312332','2002-08-05', 1200, 0);
+insert into TB_CLIENTE (name, cpf, birth_date, income, children) values ('Dick Farey', '12312312345','1997-06-12', 4200, 1);
+insert into TB_CLIENTE (name, cpf, birth_date, income, children) values ('Winston Churchil', '12312312332','1960-05-30', 2750, 0);
+insert into TB_CLIENTE (name, cpf, birth_date, income, children) values ('Farmey Finn', '12234312332','1988-11-14', 1100, 0);
+insert into TB_CLIENTE (name, cpf, birth_date, income, children) values ('Elisabeth Hurley', '12312387932','1993-04-15', 5800, 5);
