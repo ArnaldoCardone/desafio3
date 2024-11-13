@@ -32,6 +32,30 @@ public class Cliente {
         return cpf;
     }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public void setIncome(Double income) {
+        this.income = income;
+    }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public void setChildren(Integer children) {
+        this.children = children;
+    }
+
     public Double getIncome() {
         return income;
     }
