@@ -1,8 +1,7 @@
 package com.arnaldo.desafio3.dto;
 
 import com.arnaldo.desafio3.entities.Cliente;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.PastOrPresent;
+import jakarta.validation.constraints.*;
 
 import java.time.LocalDate;
 
@@ -10,12 +9,17 @@ public class ClienteDTO {
 
     private long id;
 
+    @Size(min= 3, message = "Nome precisa conter no minimo 3 caracteres")
     @NotBlank(message = "Nome não pode ser em branco")
     private String name;
     private String cpf;
+
+    @Positive(message = "Salário não pode ser negativo")
     private Double income;
     @PastOrPresent(message = "Data não pode ser futura")
     private LocalDate birthDate ;
+    
+    @PositiveOrZero(message = "Quantidade de filhos deve ser zero ou maior que zero")
     private Integer children;
 
     public ClienteDTO(long id, String name, String cpf, Double income, LocalDate birthDate, Integer children) {
